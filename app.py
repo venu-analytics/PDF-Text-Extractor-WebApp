@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-UPLOAD_FOLDER = '/Users/venu/Library/Mobile Documents/com~apple~CloudDocs/Downloads/Documents /Resume/'
+UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 def Extract_text_from_pdf(pdf_path):
